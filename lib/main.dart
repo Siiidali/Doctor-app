@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/UI/PharmacientList.dart';
 
 import 'UI/DoctoeList.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const DoctorList(),
+      home: const PharmacientList(),
     );
   }
 }
